@@ -15,7 +15,7 @@ login.addEventListener("click",()=>{
     if(pass.value==="1234"){
         console.log("login")
         login.disabled=true;
-        window.location.href = "College-project\index.html";
+        window.location.href = "/Admin/index.html";
     }else{
         alert("try again");
     }
