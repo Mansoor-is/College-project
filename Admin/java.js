@@ -1,4 +1,4 @@
 let login = document.querySelector(".logout")
 login.addEventListener("click",()=>{
-        window.location.href = "login pages\index.html";
+        window.location.href = "\index.html";
 })
