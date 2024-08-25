@@ -14,18 +14,24 @@ body{
     align-items: center;
     background-image: url(img/IMG_2279.jpg);
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     position: relative;
     top: 0;
-    filter: blur(8px);
-  -webkit-filter: blur(8px);
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 
 .login{
+    width: 80%;
+    max-width: 500px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(7, 113, 135, 0.5); 
+    background-color: rgb(7, 113, 135, 0.7); 
     width: 50%;
     height: 50%;
     font-size: 1rem;
@@ -38,6 +44,7 @@ body{
     left: 25%;
     right: 25%;
     box-shadow: 0.2rem 0.4rem 0.5rem black;
+    filter: grayscale(100%);
 }
 #password{
     padding: 1rem;
@@ -60,10 +67,11 @@ body{
 .id{
     position: absolute;
     top: 30%;
-    color: #333333;
+    color: #00C8FF;
     font-size:3rem;
 
 }
+
 .loginbutton{
     width: 20rem;
     margin-top: 2rem;
@@ -73,9 +81,28 @@ body{
     box-shadow:0.2rem 0.2rem 0.2rem #CCCCCC;
     border-radius:1rem ;
     font-size:1.2rem;
+    position: relative;
 }
 .loginbutton:hover{
     background-color: rgb(7, 113, 135, 0.5);
     box-shadow:none;
     color: white;
+}
+@media (max-width: 768px) { /* Replace 768px with a suitable breakpoint */
+    .id {
+        font-size: 2rem;
+    }
+
+    .login {
+        padding: 1.5rem;
+    }
+
+    .loginbutton {
+        width: 100%;
+        padding: 1rem 1.5rem;
+    }
+    .main {
+        background-size: cover;
+        background-position: center;
+    }
 }
