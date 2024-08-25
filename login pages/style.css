@@ -4,8 +4,6 @@
     border: 0;
     text-decoration: none;
 }
-body{
-}
 .main{
     width: 100%;
     height: 100vh;
@@ -59,15 +57,15 @@ body{
 }
 #icon{
     position: absolute;
-    top: 49%;
+    top: 55.8%;
     right: 20%;
     font-size: 1.1rem;
 }
 .id{
-    position: absolute;
-    top: 30%;
+    top: 31%;
     color: #00C8FF;
     font-size:3rem;
+    margin-bottom: 2px;
 
 }
 

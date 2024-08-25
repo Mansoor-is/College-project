@@ -9,3 +9,14 @@ icon.addEventListener("click", () => {
     }
 });
 // log in
+
+let login = document.querySelector(".loginbutton")
+login.addEventListener("click",()=>{
+    if(pass.value==="1234"){
+        console.log("login")
+        login.disabled=true;
+        window.location.href = "College-project\index.html";
+    }else{
+        alert("try again");
+    }
+})
