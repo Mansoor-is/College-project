@@ -70,13 +70,13 @@ i{
 
 }
 .memu:hover{
-    transition-delay: 0.1s;
+    transition-delay: 1ms;
     background-color: #FFFFFF;
     color: black;
    text-decoration: underline ;
    transform: rotateX(25deg);
    transform: rotateY(25deg);
-   transition: 1s;
+   transition: 0.1s;
 }
 .logout{
     margin-top: 60%;
